@@ -3,15 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# SQLite database file (agar use kar rahe hain)
+# SQLite database files
 *.db
 *.sqlite3
 
-# Environment files (virtualenv)
+# Environment / Secrets
 venv/
-.env/
-.env.*
 .env
+.env.*
+# .env/ hataya gaya (usually file hoti hai)
+
 # IDE / Editor settings
 .vscode/
 .idea/
@@ -23,6 +24,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Migrations (agar alembic use ho raha hai aur aap manually manage karna chahte hain)
+# Alembic migrations
 alembic.ini
 migrations/
