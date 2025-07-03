@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database file (agar use kar rahe hain)
+*.db
+*.sqlite3
+
+# Environment files (virtualenv)
+venv/
+.env/
+.env.*
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Migrations (agar alembic use ho raha hai aur aap manually manage karna chahte hain)
+alembic.ini
+migrations/
